@@ -77,8 +77,8 @@ header {
 /* ================================================================================== */
 /* Jumbotron session start */
 .jumbotron {
-  background-image: url('https://i.imgur.com/bpQ2E7t.png');
-  /* background-image: url('/assets/images/background.png'); */
+  /* background-image: url('https://i.imgur.com/bpQ2E7t.png'); */
+  background-image: url('/assets/images/background.png');
   background-position: top;
   background-size: cover;
   box-shadow: 5px 5px 25px #3CCF4E;
@@ -138,8 +138,8 @@ article {
 /* ================================================================================== */
 /* paket session start */
 .paket {
-  /* background-image: url('/assets/images/background.png'); */
-  background-image: url('https://i.imgur.com/bpQ2E7t.png');
+  background-image: url('/assets/images/background.png');
+  /* background-image: url('https://i.imgur.com/bpQ2E7t.png'); */
   background-size: cover;
   background-position: center;
   border-top: 2px solid #14701f;
@@ -175,28 +175,28 @@ article {
 }
 
 .one {
-  /* background-image: url("/assets/images/bali.jpg"); */
-  background-image: url(https://www.water-sport-bali.com/wp-content/uploads/2020/07/20-Tempat-Wisata-Untuk-Dikunjungi-Bali.jpg);
+  background-image: url("/assets/images/bali.jpg");
+  /* background-image: url(https://www.water-sport-bali.com/wp-content/uploads/2020/07/20-Tempat-Wisata-Untuk-Dikunjungi-Bali.jpg); */
 }
 .two {
-  /* background-image: url("/assets/images/surabaya.png"); */
-  background-image: url(https://nyero.id/wp-content/uploads/2017/09/Pilihan-Tempat-Wisata-di-Surabaya-dan-Sekitarnya-758x488.png);
+  background-image: url("/assets/images/surabaya.png");
+  /* background-image: url(https://nyero.id/wp-content/uploads/2017/09/Pilihan-Tempat-Wisata-di-Surabaya-dan-Sekitarnya-758x488.png); */
 }
 .three {
-  /* background-image: url("/assets/images/bandung.jpg"); */
-  background-image: url(https://www.coworking.co.id/wp-content/uploads/2020/11/Tempat-Wisata-di-Bandung.jpg);
+  background-image: url("/assets/images/bandung.jpg");
+  /* background-image: url(https://www.coworking.co.id/wp-content/uploads/2020/11/Tempat-Wisata-di-Bandung.jpg); */
 }
 .four {
-  /* background-image: url("/assets/images/jogja.jpg"); */
-  background-image: url(https://mytrip123.com/wp-content/uploads/2022/04/wisata-jogja.jpg);
+  background-image: url("/assets/images/jogja.jpg");
+  /* background-image: url(https://mytrip123.com/wp-content/uploads/2022/04/wisata-jogja.jpg); */
 }
 .five {
-  /* background-image: url("/assets/images/jakarta.jpg"); */
-  background-image: url(https://topcareer.id/wp-content/uploads/2020/01/wisata-kota-tua-jakarta_kota-tua_800x450_ccpdm-min-750x450.jpg);
+  background-image: url("/assets/images/jakarta.jpg");
+  /* background-image: url(https://topcareer.id/wp-content/uploads/2020/01/wisata-kota-tua-jakarta_kota-tua_800x450_ccpdm-min-750x450.jpg); */
 }
 .six {
-  /* background-image: url("/assets/images/magelang.jpg"); */
-  background-image: url(https://dolanyok.com/wp-content/uploads/2018/11/Wisata-Magelang-Gunung-Andong.jpg);
+  background-image: url("/assets/images/magelang.jpg");
+  /* background-image: url(https://dolanyok.com/wp-content/uploads/2018/11/Wisata-Magelang-Gunung-Andong.jpg); */
 }
 
 .one, .two,
