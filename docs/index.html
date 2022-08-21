@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <title>Tour Guide</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <div id="firstName">Hapid</div>
+        <div id="lastName">Guide</div>
+      </div>
+      <ul class="navigation">
+        <li><a href="#beranda" onclick="return smoothScroll('beranda')">Beranda</a></li>
+        <li class="teks-paket"><a href="#destinasi" onclick="return smoothScroll('destinasi')">Destinasi</a></li>
+        <li><a href="#tentang" onclick="return smoothScroll('tentang')">Tentang</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="jumbotron">
+      <img
+        src="assets/images/jumbotron.jpg"
+        alt="" height="350" width="500" class="image">
+      <article class="teks">
+        <h1 class="judul">Pemandu liburan Anda!</h1>
+        <p>Dengan Hapid Tour Guide Anda dapat liburan tanpa perlu bingung saat sedang berada di tempat wisata.</p>
+      </article>
+    </section>
+    <section class="contents" id="beranda">
+      <article class="first content">
+        <img src="assets/images/gambar1.png" alt="" height="250" width="350">
+        <aside>
+          <h2>Siap membuat liburan Anda menjadi bermakna</h2>
+          <p>Kami akan menemani Anda dan pasangan Anda untuk menikmati liburan dan menjadikannya momen tak terlupakan
+          </p>
+        </aside>
+      </article>
+      <article class="second content">
+        <aside>
+          <h2>Tak perlu bingung</h2>
+          <p>Dengan Hapid Tour Guide Anda akan mendapatkan penjelasan tentang semua tempat wisata yang Anda kunjungi.
+          </p>
+        </aside>
+        <img src="assets/images/gambar2.png" alt="" height="250">
+      </article>
+      <article class="third content">
+        <img src="assets/images/gambar3.png" alt="" height="250" width="350">
+        <aside>
+          <h2>Panduan Kami bisa diakses secara Online!</h2>
+          <p>Dengan adanya fitur ini Anda bisa dengan mudah mengikuti panduan wisata kami jika menginginkan ruang
+            privasi tanpa perlu bertemu dengan tim kami.</p>
+        </aside>
+      </article>
+    </section>
+    <section class="paket" id="destinasi">
+      <h1 class="judul-paket">Pilih Destinasi Tujuan Anda</h1>
+      <div class="flex-container">
+        <div class="item satu">
+          <div class="menu one">
+            <div class="coba">
+              <h3>Bali</h3>
+            </div>
+          </div>
+          <div class="menu two">
+            <!-- <img src="assets/images/Pilihan-Tempat-Wisata-di-Surabaya-dan-Sekitarnya-758x488.png" alt=""> -->
+            <div class="coba">
+              <h3>Surabaya</h3>
+            </div>
+          </div>
+          <div class="menu three">
+            <!-- <img src="assets/images/Tempat-Wisata-di-Bandung.jpg" alt=""> -->
+            <div class="coba">
+              <h3>Bandung</h3>
+            </div>
+          </div>
+        </div>
+        <div class="item dua">
+          <div class="menu four">
+            <!-- <img src="assets/images/wisata-jogja.jpg" alt=""> -->
+            <div class="coba">
+              <h3>Yogyakarta</h3>
+            </div>
+          </div>
+          <div class="menu five">
+            <!-- <img src="assets/images/wisata-kota-tua-jakarta_kota-tua_800x450_ccpdm-min-750x450.jpg" alt=""> -->
+            <div class="coba">
+              <h3>Jakarta</h3>
+            </div>
+          </div>
+          <div class="menu six">
+            <!-- <img src="assets/images/Wisata-Magelang-Gunung-Andong.jpg" alt=""> -->
+            <div class="coba">
+              <h3>Magelang</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside id="tentang">
+        <div class="biodata">
+          <img class="foto" src="assets/images/Mee.jpg" alt="">
+          <h3>Pemandu</h3>
+          <h1>Hapid Ramdani</h1>
+          <p>Hapid Ramdani atau lebih akrab dipanggil Hapid adalah seorang Mahasiswa dan Pemandu sekaligus Owner dari
+            Hapid Guide. Ia telah beberapa kali mengunjungi tempat yang ada pada list pilihan destinasi Hapid Guide,
+            dengan bekal pengetahuan akan tempat yang telah sering dikunjunginya Ia mendirikan sebuah pelayanan jasa
+            Tour Guide. Dengan adanya jasa Tour Guide Hapid berharap dapat membantu wisatawan yang kebingungan saat
+            berada di tempat wisata tersebut. Uang dari hasil memandu para wisatawan ia tabung untuk keperluan
+            kuliahnya.</p>
+        </div>
+      </aside>
+    </section>
+
+  </main>
+  <footer>
+    <div class="footer">
+      <h4>&copy;Hapid Guide | Web Pemandu Wisata</h4>
+    </div>
+  </footer>
+</body>
+
+<script src="assets/scroll.js"></script>
+
+</html>
